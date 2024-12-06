@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    background-color: #9c9cff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#userForm {
+    background-color: white;
+    width: 500px;
+    min-height: 400px;
+    padding: 40px;
+    border-radius: 4px;
+
+}
+
+ #userForm>h3 {
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.pairsWrapper>h5 {
+    color: #4a4a4a;
+    font-weight: lighter;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    gap: 45px;
+
+}
+.pairsWrapper{
+    display: flex;
+    flex-direction: column;
+}
+#pairInput{
+    margin-bottom: 15px;
+}
+#valueField{
+    min-height: 300px;
+    width: 350px;
+    border: 1px solid gray;
+}
+.buttonsWrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.buttonsWrapper>span{
+margin: 35px 0 25px 0;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.buttonsWrapper button{
+    padding: 2px 5px ;
+}
+#warningMessage{
+    color: red;
+}
