@@ -2,9 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Test</title>
+    <link rel="stylesheet" href="laptop.css">
+
 </head>
 <body>
+<div class="main">
+    <form id="userForm">
+        <h3>Test</h3>
+        <div class="wrapper">
+            <div class="pairsWrapper">
+                <h5>Name/Value pair</h5>
+
+                <input type="text" id="pairInput" placeholder="Write Name=Value">
+                <h5>Name/Value Pair List</h5>
+                <div id="valueField"><p id="warningMessage"></p></div>
+            </div>
+            <div class="buttonsWrapper">
+                <button id="buttonAdd">Add</button>
+                <span>
+                <button id="buttonSortByName">Sort by name</button>
+                <button id="buttonSortByValue">Sort by value</button>
+            </span>
+                <button id="buttonDelete">Delete</button>
+            </div>
+        </div>
+    </form>
+</div>
 <script src="main.js"></script>
 </body>
 </html>
