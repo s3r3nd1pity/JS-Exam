@@ -1,0 +1,36 @@
+@media screen and ( min-width: 481px ) and (max-width: 768px) {
+    #userForm {
+        width: 300px;
+        min-height: 400px;
+        padding: 10px;
+    }
+
+    #userForm > h3 {
+        margin-bottom: 15px;
+    }
+
+    .wrapper {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #pairInput {
+        margin-bottom: 10px;
+    }
+
+    #valueField {
+        min-height: 250px;
+        width: 300px;
+
+    }
+
+    .buttonsWrapper {
+        flex-direction: row;
+    }
+
+    .buttonsWrapper > span {
+        margin: 0 10px;
+        gap: 5px;
+        flex-direction: row;
+    }
+}
