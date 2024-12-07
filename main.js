@@ -19,9 +19,9 @@ buttonAdd.onclick = function () {
         pairLine.innerText = userPair;
         valueField.appendChild(pairLine);//Додавання пари в документ
         warningMessage.style.display = 'none';//Видалення попереджувального повідомлення
-        let name = userPair.split('=')[0]
-        let value = userPair.split('=')[1]//Витянування імені та значення пари
-        localStorage.setItem(JSON.stringify(name),JSON.stringify(value))//Додавання пари в сховище
+        let name = userPair.split('=')[0];
+        let value = userPair.split('=')[1];//Витянування імені та значення пари
+        localStorage.setItem(JSON.stringify(name), JSON.stringify(value));//Додавання пари в сховище
     } else {
         warningMessage.innerText = 'Unavailable pair. Pair must look like "Name=Value".';
         warningMessage.style.display = 'block';//Додавання попереджувального повідомлення
@@ -35,10 +35,9 @@ buttonDelete.onclick = function () {
         if (pairsLines[i].textContent === userPair) {//Перевірка на правильну пару
             valueField.removeChild(pairsLines[i]);//Видалення пари
             warningMessage.style.display = 'none';//Видалення попереджувального повідомлення
-            let name = userPair.split('=')[0]//Витягування імені пари
-            localStorage.removeItem(JSON.stringify(name))//Видалення зі сховища
-        }
-        else {
+            let name = userPair.split('=')[0];//Витягування імені пари
+            localStorage.removeItem(JSON.stringify(name));//Видалення зі сховища
+        } else {
             warningMessage.innerText = 'Pair is not found.';
             warningMessage.style.display = 'block';//Додавання попереджувального повідомлення
         }
