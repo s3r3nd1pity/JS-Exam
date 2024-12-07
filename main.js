@@ -1,4 +1,3 @@
-//Витягую елементи з HTML файлу.
 let userForm = document.getElementById('userForm');
 let pairInput = document.getElementById('pairInput');
 let valueField = document.getElementById('valueField');
@@ -6,7 +5,7 @@ let buttonAdd = document.getElementById('buttonAdd');
 let buttonDelete = document.getElementById('buttonDelete');
 let buttonSortByName = document.getElementById('buttonSortByName');
 let buttonSortByValue = document.getElementById('buttonSortByValue');
-let warningMessage = document.getElementById('warningMessage')
+let warningMessage = document.getElementById('warningMessage')//Витягую елементи з HTML файлу.
 
 userForm.onsubmit = function (event) {
     event.preventDefault();
