@@ -1,10 +1,8 @@
-
 * {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
-
 
 .main {
     height: 100vh;
@@ -24,12 +22,12 @@
 
 }
 
- #userForm>h3 {
+#userForm > h3 {
     font-size: 22px;
     margin-bottom: 25px;
 }
 
-.pairsWrapper>h5 {
+.pairsWrapper > h5 {
     color: #4a4a4a;
     font-weight: lighter;
 }
@@ -42,33 +40,40 @@
     gap: 45px;
 
 }
-.pairsWrapper{
+
+.pairsWrapper {
     display: flex;
     flex-direction: column;
 }
-#pairInput{
+
+#pairInput {
     margin-bottom: 15px;
 }
-#valueField{
+
+#valueField {
     min-height: 300px;
     width: 350px;
     border: 1px solid gray;
 }
-.buttonsWrapper{
+
+.buttonsWrapper {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
 }
-.buttonsWrapper>span{
-margin: 35px 0 25px 0;
+
+.buttonsWrapper > span {
+    margin: 35px 0 25px 0;
     display: flex;
     gap: 10px;
     flex-direction: column;
 }
-.buttonsWrapper button{
-    padding: 2px 5px ;
+
+.buttonsWrapper button {
+    padding: 2px 5px;
 }
-#warningMessage{
+
+#warningMessage {
     color: red;
 }
